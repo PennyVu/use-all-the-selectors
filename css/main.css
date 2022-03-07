@@ -1,6 +1,5 @@
 html {
   font-family: sans-serif;
-  font-size: 1.5rem;
   box-sizing: border-box;
 }
 
@@ -38,7 +37,7 @@ header, footer {
   background-color: #b58900;
 }
 
-p + strong {
+.dfn p + strong {
   color: #fff;
 }
 
@@ -58,14 +57,14 @@ ol li:last-child {
   color: #2aa198;
 }
 
-.type li:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.type li:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.type li:nth-child(3n) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
